@@ -1,0 +1,393 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;text-align: center;
+
+}
+
+.header{
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+
+.nav-links{
+    margin-right: 0px;
+    text-decoration: none;
+    background-color: #333;
+    overflow: hidden
+}
+
+.navlinks a:hover {
+    background-color: #ddd;
+   
+  }
+
+  .navlinks a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.navlinks a{
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.hero{
+    background-image: url('CURRENT/RIADA.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    font-size: xx-large;
+    width: 50%;
+    height: 100%;   
+}
+
+.search{
+    width: 30px;
+}
+
+.hero .overlay{
+    position: absolute;
+            top: 2%;
+            left: 0%;
+            right: 3%;
+            width: 98%;
+            height: 50%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin-top: 3%;
+          
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+          }
+          
+ .image1{
+    width: 40%;
+    margin: 10%;
+ } 
+ 
+ .image2{
+    width: 40%;
+    display: right;
+ }
+
+
+.container {
+  
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+  width: 50px;
+}
+
+.orange-background {
+  background-color: orange; 
+  width: 30%; 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.orange-button {
+  background-color: #ff9900; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  padding: 10px 20px; 
+  margin: 10px;
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }}
+          
+
+
+ 
+
+  .search{
+        width: 50px;
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+      }
+  
+ 
+  
+  
+  
+  
+
+.hero button{
+    background-color:orange;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20%;
+    margin-left: -40%;
+}
+
+
+ .thumbnail{
+    width: 40px;
+
+ }
+
+
+.service{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-card{
+background-color: #fff;
+padding: 10px;
+border: 1px solid #ddd;
+width: 200px;
+}
+
+.footer{
+    background-color: #333;
+    color:white
+    
+}
+
+.logo {
+    font-size: 24px;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+.nav ul li {
+    margin-left: 20px;
+}
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.main {
+    padding: 20px;
+}
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.intro h1 {
+    font-size: 32px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.service-info,
+.service-details {
+    background-color: #fff;
+    padding: 20px;
+    width: 45%;
+}
+.quote {
+    text-align: center;
+    padding: 20px;
+}
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+.button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+
+.testimonials, .newsletter, .blog{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    margin: 20px auto;.container {
+        border: 2px solid #ccc;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 16px;
+        margin: 16px 0;
+      }}
+      
+     
+      .container::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+     
+      .container img {
+        float: left;
+        margin-right: 20px;
+        border-radius: 50%;
+      }
+      
+      
+      .container span {
+        font-size: 20px;
+        margin-right: 15px;
+      }
+      
+      
+      @media (max-width: 500px) {
+        .container {
+          text-align: center;
+        }
+      
+        .container img {
+          margin: auto;
+          float: none;
+          display: block;
+        }
+      
+}
+.testimonial {
+    .container {
+        border: 2px solid #ccc;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 16px;
+        margin: 16px 0;
+      }
+      
+    
+      .container::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+     
+      .container img {
+        float: left;
+        margin-right: 20px;
+        border-radius: 50%;
+      }
+      
+     
+      .container span {
+        font-size: 20px;
+        margin-right: 15px;
+      }
+      
+     
+      @media (max-width: 100px) }
+
+       
+      
+        .container img {
+          margin: auto;
+          float: none;
+          display: block
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.about{
+    font-size: smaller;
+    
+}
+
+
+.container {
+    margin: auto;
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+.header {
+    background-color: #333;
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+    align-items: flex-start;
+    justify-content: space-between;
+     flex: 1;
+     
+    
+    
+}
+ .header nav ul {
+    list-style: none;
+    padding: 0;
+}
+.header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 60%;
+}
+.newsletter button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+.blog .article {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+ .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+ .footer .links, footer .legal { display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px auto;
+}
+ .footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
